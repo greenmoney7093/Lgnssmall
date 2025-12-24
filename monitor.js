@@ -9,7 +9,7 @@ const SLGNS = "0x99a57e6c8558bc6689f894e068733adf83c19725";
 const DAI   = "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063";
 
 const AMOUNT_IN = 4; // 1 LGNS
-const THRESHOLD = 1.0002;
+const THRESHOLD = 1.002;
 const SLIPPAGE_PERCENT = 1;
 
 const RPC = "https://polygon-rpc.com";
