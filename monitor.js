@@ -8,8 +8,8 @@ const LGNS  = "0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01";
 const SLGNS = "0x99a57e6c8558bc6689f894e068733adf83c19725";
 const DAI   = "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063";
 
-const AMOUNT_IN = 4; // 1 LGNS
-const THRESHOLD = 1.002;
+const AMOUNT_IN = 14; // 1 LGNS
+const THRESHOLD = 1.001;
 const SLIPPAGE_PERCENT = 1;
 
 const RPC = "https://polygon-rpc.com";
@@ -105,7 +105,7 @@ for (const d of daiQuote.dexes) {
 
   /* ---------- DISPLAY ---------- */
 
-  console.log("Initial LGNS :", "4.000000");
+  console.log("Initial LGNS :", "14.000000");
   console.log("DAI received :", daiFromQSv3);
   console.log("sLGNS final  :", slgnsFinal);
   console.log("--------------------------------------");
