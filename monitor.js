@@ -57,7 +57,7 @@ async function quoteOpenOcean(tokenIn, tokenOut, amountIn) {
 async function notifyTelegram(message) {
   try {
     await axios.get(
-      "https://api.telegram.org/bot8451188468:AAHR3ntYIF9-Q0iGzBVubkJbPm48VAdmqtA/sendMessage?chat_id=1003118263",
+      "https://api.telegram.org/bot8451188468:AAHR3ntYIF9-Q0iGzBVubkJbPm48VAdmqtA/sendMessage?chat_id=-1003512755878",
       {
         params: {
           text: message,
@@ -118,7 +118,7 @@ for (const d of daiQuote.dexes) {
     console.log(">>> OPPORTUNITY FOUND <<<");
 
     const msg =
-      `$$$$$$$$ LGNS is greater than sLGNS$$$$$$$$$$          final sLGNS: ${slgnsFinal}`;
+      `small trade of 14 token fast $$$$$$$$$$          final sLGNS: ${slgnsFinal}`;
     await notifyTelegram(msg);
   } else {
     console.log("No opportunity");
